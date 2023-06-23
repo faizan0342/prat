@@ -1,0 +1,854 @@
+
+html
+{
+  //color: white;
+  //background-color: pink;
+  font-family: "Arial, Helvetica, sans-serif";
+
+
+}
+
+[v-cloak] {
+   display: none;
+ }
+
+ .shadow-md {
+   -webkit-box-shadow: 0 4.5px 3px -3px #999;
+   -moz-box-shadow: 0 4.5px 3px -3px #999;
+     box-shadow: 0 2.25px 4.5px rgba(0,0,0,0.16), 0 2.25px 4.5px rgba(0,0,0,0.23);
+ }
+
+a
+{
+  color: white;
+}
+
+// #fab329
+// #e19725
+// #3d3d47
+// #32333c
+// #d5c8c6
+
+.font-primary-title
+{
+    font-family: 'Roboto Mono', monospace;
+}
+.color-primary
+
+{
+  color: #fab329;
+}
+
+
+.color-yellow
+{
+  color: #fab329;
+}
+
+.color-alternate
+{
+  color: white;
+}
+
+.color-primary-heavy
+{
+  color: white;
+}
+
+.color-beigh
+{
+  color: #fab329;
+}
+
+
+
+.button-gradient
+{
+  color: #f7f1e1;
+
+   background: linear-gradient(#fab329, #e19725);
+}
+
+.button-primary
+{
+  color: white;
+  background: #e19725;
+  border: 1px solid #e19725;
+
+}
+
+
+.button:hover {
+    border: 1px solid #e19725;
+}
+
+.button-bubble
+{
+  padding:8px;
+  border: 1px solid #e19725;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+.button-bubble-secondary
+{
+  padding:8px;
+  border: 1px solid white;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+
+.button-bubble:hover
+{
+  padding:9px;
+  border: 0px solid #e19725;
+  border-radius: 3px;
+  display: inline-block;
+  color: #ddd;
+}
+
+
+.color-white
+{
+  color: white;
+}
+
+.navbar-item
+{
+  padding: 2px;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .has-small-text-mobileorange
+  {
+    font-size: 10px;
+  }
+}
+
+.orange-theme
+{
+  background-color: #ff7209;
+
+
+
+  .color-primary
+  {
+    color: white;
+  }
+
+
+
+  .button-secondary-bubble button-primary
+  {
+    color: black;
+
+  }
+}
+
+
+ 
+
+
+
+.transaction-list
+{
+  .status-success
+    {
+        border-left: 4px solid #A3CB38;
+
+        .tx-status-cell
+        {
+          color: #d5c8c6
+        }
+    }
+
+  .status-mined
+  {
+    border-left: 4px solid #1289A7;
+      .tx-status-cell
+      {
+        color: #30336b
+      }
+  }
+
+  .status-pending
+  {
+    border-left: 4px solid #f9ca24;
+      .tx-status-cell
+      {
+        color: #f9ca24
+      }
+  }
+
+  .status-queued
+  {
+      border-left: 4px solid #22a6b3;
+      .tx-status-cell
+      {
+        color: #22a6b3
+      }
+  }
+
+  .status-unknown
+    {
+        border-left: 4px solid #e056fd;
+
+    }
+}
+
+
+
+.title
+{
+  color: white;
+
+}
+.subtitle
+{
+    color: #fab329;
+}
+
+
+.slate-theme-dark
+{
+    background-color: #3d3d47;
+
+
+}
+
+.acts-as-link
+{
+  cursor:pointer;
+}
+
+.slate-theme
+{
+    background-color: #32333c;
+
+
+  .color-fun-primary
+  {
+      color: #e2c08d;
+  }
+
+  .color-fun-secondary
+  {
+      color: #d5c8c6;
+  }
+
+  .background-primary
+  {
+    background-color: #32333c;
+  }
+  .background-secondary
+  {
+    background-color: #3d3d47;
+  }
+
+
+.card-background-secondary
+{
+  background-color: #3d3d47;
+}
+
+}
+
+.circuit-overlay
+{
+  position: relative;
+
+  background: url(/app/assets/images/circuits-overlay.png);
+
+}
+
+.account-search-container
+{
+  max-width: 400px;
+  margin:0 auto;
+
+  .input
+  {
+    background: rgba(0,0,0,0.2);
+    color:white;
+  }
+}
+
+.navbar-end
+{
+  .button
+  {
+    margin:5px;
+  }
+}
+
+.navbar-start
+{
+  .navbar-item
+  {
+    color:white;
+    font-size:1.2em;
+    padding:10px 35px;
+  }
+}
+
+.hover-line-blue:hover
+{
+  border-bottom: 2px solid #1289A7;
+}
+
+.hover-line-green:hover
+{
+  border-bottom: 2px solid #A3CB38;
+}
+
+.toggle-mining-instructions
+{
+  padding:10px;
+  margin:10px;
+
+}
+
+.mining-instructions-container
+{
+  padding:10px;
+  margin:10px;
+}
+
+.zeroauto
+{
+  margin:0 auto;
+}
+
+.table-dark
+{
+  color: white;
+  background-color: transparent;
+
+  thead
+  {
+    td {
+      color: #d5c8c6;
+    }
+  }
+
+}
+
+.loading-animation
+{
+  margin: 0 auto;
+  text-align: center;
+  width:100%;
+}
+
+.loader {
+
+    margin: 0 auto;
+    border: 11px solid #f3f3f3; /* Light grey */
+    border-top: 11px solid #d5c8c6; /* Blue */
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+// we adding dark1.css
+
+/* Include this stylesheet after Milligram or merge it with your main.css */
+
+/* based heavily on dark2.css from milligram-themes */
+
+body {
+  background: #202226;
+  color: #f2f2f2;
+}
+/*
+img.top-logo { 
+opacity: 0.7; 
+} 
+
+img.top-logo:hover { 
+opacity: 1; 
+}
+*/
+.navigation .title, .navigation-title {
+  color: #f2f2f2;
+}
+
+.navigation {
+  background: #34373C;
+  border-bottom: .1rem solid #1B1C1D;
+}
+
+.header {
+  background-color: #141518;
+}
+
+pre {
+  background: #141518;
+}
+
+.prettyprint {
+  color: #f2f2f2;
+}
+
+.prettyprint.lang-md * {
+  color: #f2f2f2 !important;
+}
+
+code {
+  background: #141518;
+}
+
+.prettyprint .atv {
+  color: rgba(73, 158, 223, 1);
+}
+
+/* custom values */
+a {
+color: #cc66ff;
+text-decoration: none;
+}
+a:focus, a:hover {
+color: hsl(276, 50%, 39%);
+}
+
+
+th,
+td {
+  border-bottom: 0.1rem solid rgba(97, 97, 97, 1);
+}
+
+
+span.poolname {
+color: #F2F2F2;
+}
+i.navicon {
+color: #d2d2d2;
+}
+i.helpicon {
+color: #b2b2b2;
+}
+
+
+/* mining calculator */
+input {
+color: #f2f2f2;
+}
+select {
+color: #f2f2f2;
+}
+.button.button-outline {
+color: #cc66ff;
+}
+select option {
+  background: #2c2e30;
+  /*
+  margin: 40px;
+  color: #ffffff;
+  text-shadow: 0 1px 0 #2c2e30;
+  */
+}
+blockquote {
+background: #2c2e30;
+}
+
+/* deprecated, would be nice to use */
+.poolcolor-orange { background-color: #C64500 }
+.poolcolor-purple { background-color: #4527A0 }
+.poolcolor-blue   { background-color: #0277BD }
+.poolcolor-green  { background-color: #2E7D32 }
+.poolcolor-yellow { background-color: #997500 }
+.poolcolor-darkpurple { background-color: #662354 }
+.poolcolor-darkred {background-color: hsl(356, 48%, 30%)}
+
+.poolcolor-red {background-color: #f44336 } /* unused */
+.poolcolor-pink {background-color: #e91e63} /* unused */
+.poolcolor-lightpurple {background-color: #9c27b0} /* unused */
+.poolcolor-teal {background-color: #009688} /* unused */
+.poolcolor-lime {background-color: #cddc39} /* unused */
+.poolcolor-brown {background-color: #8d6e63} /* unused */
+.poolcolor-grey {background-color: #78909c} /* unused */
+
+// 
+
+img.top-logo {
+  float: left;
+  margin: 1.09em 0.67em 0 0;
+  padding-right: 0;
+}
+
+h1 {
+  margin-top: 1.09em;
+}
+
+.add-top-padding {
+  margin-top: 10rem;
+}
+.add-top-padding-2 {
+  margin-top: 2rem;
+}
+.add-top-padding-5 {
+  margin-top: 5rem;
+}
+.add-bottom-padding-5 {
+  margin-bottom: 5rem;
+}
+.nav-button {
+  /*align: center;*/
+  margin:auto;
+  display:block;
+
+  background-color: transparent;
+  color: black;
+  border-color: black;
+
+  font-size: 1rem;
+  height: 2.8rem;
+  line-height: 2.8rem;
+  padding: 0 1.5rem;
+
+  /*width:16rem;*/
+}
+span.poolname {
+  /*text-align:center;*/
+
+  display:inline-block;
+  /*background-color: lightblue;*/
+  padding: 0px;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  border-radius: 3px;
+  font-weight: 200;
+  color: #454d54;
+}
+ul.nav {
+  list-style-type: none;
+  margin: 0;
+  margin-top: 0.5em;
+  padding: 0;
+}
+li.nav {
+  display: inline;
+  white-space: nowrap;
+}
+#navigation li + li:before {
+  /*content: " | ";*/
+  content: " ";
+  /*padding-right: 1rem;*/
+  padding-left: 2rem;
+}
+
+i.navicon {
+  font-size: 1.5em;
+  vertical-align: middle;
+  padding-right: 0.25rem;
+}
+i.helpicon {
+  font-size: 1em;
+  vertical-align: text-bottom;
+  margin-left: 10;
+}
+
+
+/*
+div {
+  outline: 1px solid white;
+}
+*/
+
+/* mining calculator */
+input#hashrateField,
+input#poolFeeField,
+input#mintFailureRateField {
+  width:10rem;
+  float:left;
+}
+select#unitField {
+  width:8rem;
+  float:left;
+}
+/*
+input#poolFeeField {
+  padding-right:20px;
+}
+*/
+input {
+  text-align:right;
+}
+label {
+  clear: left;
+}
+a#currentDiffButton {
+  margin: 5px;
+  left: 0px;
+}
+a#nextDiffButton {
+  margin: 5px;
+  /*right: 0px;*/
+}
+
+/* use milligram fonts in jqMath equations */
+fmath {
+  font-family: inherit;
+}
+
+/* deprecated, would be nice to use */
+.poolcolor-orange { color: #FF6C04 }
+.poolcolor-purple { color: #671CFF }
+.poolcolor-blue   { color: #A7FFEB }
+.poolcolor-green  { color: #CCFF90 }
+.poolcolor-yellow { color: #FFEE58 }
+
+
+h6 {
+  clear: both;
+  color: #bbb;
+  margin-bottom: 0;
+}
+
+h6 span {
+  color: #ffffffff;
+}
+
+// 
+
+
+/*
+Tipr 3.2
+Copyright (c) 2017 Tipue
+Tipr is released under the MIT License
+http://www.tipue.com/tipr
+
+Corso theme
+*/
+
+
+.tipr_content
+{
+     font: 300 11px/1.7 'Roboto Condensed', sans-serif;
+	color: #eee;
+	/*text-transform: uppercase;*/
+	letter-spacing: 1px;
+     background-color: #333;
+     padding: 7px 14px 6px 14px;
+}
+.tipr_container_below
+{
+     display: none;
+     position: absolute;
+     margin-top: 7px;
+     z-index: 1000;
+}
+.tipr_container_above
+{
+     display: none;
+     position: absolute;
+     margin-top: -67px;
+     z-index: 1000;
+}
+.tipr_point_above, .tipr_point_below 
+{
+     position: relative;
+	background: #333;
+	border: 1px solid #333;
+	border-radius: 1px;
+}
+.tipr_point_above:after, .tipr_point_above:before
+{
+	position: absolute;
+	pointer-events: none;
+	border: solid transparent;
+	top: 100%;
+	content: "";
+	height: 0;
+	width: 0;
+}
+.tipr_point_above:after
+{
+	border-top-color: #333;
+	border-width: 8px;
+	left: 50%;
+	margin-left: -8px;
+}
+.tipr_point_above:before 
+{
+	border-top-color: #333;
+	border-width: 9px;
+	left: 50%;
+	margin-left: -9px;
+}
+.tipr_point_below:after, .tipr_point_below:before
+{
+	position: absolute;
+	pointer-events: none;
+	border: solid transparent;
+	bottom: 100%;
+	content: "";
+	height: 0;
+	width: 0;
+}
+.tipr_point_below:after
+{
+	border-bottom-color: #333;
+	border-width: 8px;
+	left: 50%;
+	margin-left: -8px;
+}
+.tipr_point_below:before 
+{
+	border-bottom-color: #333;
+	border-width: 9px;
+	left: 50%;
+	margin-left: -9px;
+}
+
+// jqmath-0.4.3
+
+/* "fm" classes are mostly for imitating MathML in browsers without it; we try to roughly mimic
+	Firefox's MathML layout, which seems better than http://www.w3.org/TR/mathml-for-css/ */
+
+/* Cambria [Math]'s line height currently (2/11) is large in most non-Microsoft browsers: */
+fmath, .fm-math		{ font-family: STIXGeneral, 'DejaVu Serif', 'DejaVu Sans',
+  /* Cambria, 'Cambria Math', */ Times, 'Lucida Sans Unicode',
+  OpenSymbol, 'Standard Symbols L', serif; line-height: 1.2 }
+fmath mtext, .fm-math mtext
+{ line-height: normal }
+fmath mo, .fm-mo, .ma-sans-serif, fmath mi[mathvariant*=sans-serif],
+fmath mn[mathvariant*=sans-serif], fmath mtext[mathvariant*=sans-serif],
+fmath ms[mathvariant*=sans-serif]
+/* some (crossbrowsertesting/browsershots) IE7s require no line break before
+'Lucida Sans Unicode': */
+{ font-family: STIXGeneral, 'DejaVu Sans', 'DejaVu Serif', /* Cambria, 'Cambria Math', */ 'Lucida Sans Unicode',
+  'Arial Unicode MS', 'Lucida Grande', Times,
+  OpenSymbol, 'Standard Symbols L', sans-serif }
+.fm-mo-Luc	/* avoid extra space at character tops, especially when stretched */
+{ font-family: STIXGeneral, 'DejaVu Sans', 'DejaVu Serif', /* Cambria, 'Cambria Math', */ 'Lucida Sans Unicode',
+  'Lucida Grande', 'Arial Unicode MS', Times,
+  OpenSymbol, 'Standard Symbols L', sans-serif }
+* html fmath, * html .fm-math, * html fmath mo, * html .fm-mo, * html .IE6-LSU
+{ font-family: 'Lucida Sans Unicode' !important }	/* IE <=6 only */
+mo.fm-radic			{ font-family: 'Lucida Sans Unicode', 'Lucida Grande',
+  Verdana, sans-serif !important }
+.ma-script, fmath mi[mathvariant*=script], fmath mo[mathvariant*=script],
+fmath mn[mathvariant*=script], fmath mtext[mathvariant*=script], fmath ms[mathvariant*=script]
+{ font-family:
+  'England Hand DB', 'Embassy BT', 'Amazone BT', 'Bank Script D',
+  'URW Chancery L', 'Lucida Calligraphy', 'Apple Chancery',
+  'Monotype Corsiva', Corsiva,
+  'Vivaldi D', Gabriola, 'Segoe Script', cursive }
+.ma-fraktur, fmath mi[mathvariant*=fraktur], fmath mo[mathvariant*=fraktur],
+fmath mn[mathvariant*=fraktur], fmath mtext[mathvariant*=fraktur],
+fmath ms[mathvariant*=fraktur]
+{ font-family: UnifrakturMaguntia, Impact, fantasy }
+fmath mi[mathvariant*=monospace], fmath mo[mathvariant*=monospace],
+fmath mn[mathvariant*=monospace], fmath mtext[mathvariant*=monospace],
+fmath ms[mathvariant*=monospace]
+{ font-family: monospace }
+/* .ma-double-struck currently ignored */
+
+.fm-mi-length-1		{ font-style: italic }
+fmath mi[mathvariant]	{ font-style: normal }
+
+.ma-bold, fmath mi[mathvariant*=bold], fmath mo[mathvariant*=bold],
+fmath mn[mathvariant*=bold], fmath mtext[mathvariant*=bold], fmath ms[mathvariant*=bold]
+{ font-weight: bold }
+.ma-nonbold			{ font-weight: normal }
+.ma-upright			{ font-style: normal !important }
+.ma-italic, fmath mi[mathvariant*=italic], fmath mo[mathvariant*=italic],
+fmath mn[mathvariant*=italic], fmath mtext[mathvariant*=italic], fmath ms[mathvariant*=italic]
+{ font-style: italic }
+
+fmath.ma-block		{ display: block; text-align: center; text-indent: 0;
+  page-break-inside: avoid }
+
+/* note an operator might be 'mo' or "embellished": */
+.fm-separator		{ padding: 0 0.56ex 0 0 }
+.fm-infix-loose		{ padding: 0 0.56ex }	/* typically a relation */
+.fm-infix			{ padding: 0 0.44ex }
+.fm-prefix			{ padding: 0 0.33ex 0 0 }
+.fm-postfix			{ padding: 0 0 0 0.33ex }
+.fm-prefix-tight	{ padding: 0 0.11ex 0 0 }
+.fm-postfix-tight	{ padding: 0 0 0 0.11ex }
+.fm-quantifier		{ padding: 0 0.11ex 0 0.22ex }	/* to match MathML */
+/* fences should have no padding */
+.ma-non-marking		{ display: none }
+
+.fm-large-op		{ font-size: 1.3em }
+.fm-inline .fm-large-op	{ font-size: 1em }
+
+fmath mrow			{ white-space: nowrap }
+
+.fm-vert			{ display: inline-block; vertical-align: middle }
+
+fmath table, fmath tbody, fmath tr, fmath td	/* reset to default(?) styles */
+{ border: 0 !important; padding: 0 !important; margin: 0 !important;
+  outline: 0 !important }
+
+fmath table			{ border-collapse: collapse !important; text-align: center !important;
+  table-layout: auto !important; float: none !important }
+
+.fm-frac			{ padding: 0 1px !important }
+td.fm-den-frac		{ border-top: solid thin !important }
+
+.fm-root			{ font-size: 0.6em }
+.fm-radicand		{ padding: 0 1px 0 0; border-top: solid; margin-top: 0.1em }
+
+.fm-script			{ font-size: 0.71em }
+.fm-script .fm-script .fm-script	{ font-size: 1em }
+
+td.fm-underover-base	{ line-height: 1 !important }
+
+td.fm-mtd			{ padding: 0.5ex 0.4em !important; vertical-align: baseline !important }
+
+fmath mphantom		{ visibility: hidden }
+fmath menclose, menclose.fm-menclose
+{ display: inline-block }
+fmath menclose[notation=top], menclose.fm-menclose[notation=top]
+{ border-top: solid thin }
+fmath menclose[notation=right], menclose.fm-menclose[notation=right]
+{ border-right: solid thin }
+fmath menclose[notation=bottom], menclose.fm-menclose[notation=bottom]
+{ border-bottom: solid thin }
+fmath menclose[notation=left], menclose.fm-menclose[notation=left]
+{ border-left: solid thin }
+fmath menclose[notation=box], menclose.fm-menclose[notation=box]
+{ border: solid thin }
+fmath none			{ display: none }	/* probably unnecessary */
+
+mtd.middle, fmath td.middle	{ vertical-align: middle !important }
+
+fmath table[columnalign=left], fmath tr[columnalign=left], fmath td[columnalign=left]
+{ text-align: left !important }
+fmath table[columnalign=right], fmath tr[columnalign=right], fmath td[columnalign=right]
+{ text-align: right !important }
+fmath td[rowalign=top]
+{ vertical-align: top !important }
+fmath td[rowalign=bottom]
+{ vertical-align: bottom !important }
+fmath td[rowalign=center]
+{ vertical-align: middle !important }
+
+mtable.ma-join-align > mtr > mtd:first-child,
+fmath span.ma-join-align > table > tbody > tr > td:first-child
+{ text-align: right; padding-right: 0 !important }
+mtable.ma-join-align > mtr > mtd:first-child + mtd,
+fmath span.ma-join-align > table > tbody > tr > td:first-child + td
+{ text-align: left; padding-left: 0 !important }
+mtable.ma-join1-align > mtr > mtd:first-child,	/* e.g. for cases after a stretched { */
+fmath span.ma-join1-align > table > tbody > tr > td:first-child
+{ text-align: left; padding-left: 0 !important }
+
+mtable.ma-binom > mtr > mtd, fmath span.ma-binom > table > tbody > tr > td
+{ padding: 0 !important }
+mtable.ma-binom > mtr:first-child > mtd,
+fmath span.ma-binom > table > tbody > tr:first-child > td
+{ padding: 0 0 0.18em 0 !important }
+
+
